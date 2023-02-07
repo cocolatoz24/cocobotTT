@@ -10,7 +10,7 @@ class Main:
         cursor.hide()
         txt=self.format(" Tiktok ", " ID Video Tik Tok :  ")
         YourId=input(txt)
-        self.videos = YourId
+        self.videos = 7196934055018448385
     def format(self, symbol, text):
         return f"""   {Col.Symbol(symbol, self.lblue, self.blue)} {self.lblue}{text}{Col.reset}"""
 
